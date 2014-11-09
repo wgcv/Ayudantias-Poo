@@ -28,7 +28,7 @@ public class Prueba {
 		nombre = entrada.nextLine();
 		//Muestra datos con Formato
 		System.out.printf("Bienvenido %s \n", nombre);
-
+		entrada.close();
 		
 	}
 }

@@ -1,0 +1,24 @@
+package Poke;
+
+public class Pokemon {
+	//http://www.pokemon.com/es/pokedex/squirtle
+private int id;
+private String nombre;
+private String tipo;
+private int salud;
+private int ataque1,ataque2,ataque3;
+
+public Pokemon(int id, String nombre, String tipo, int ataque1, int ataque2) {
+	this.id = id;
+	this.nombre = nombre;
+	this.tipo = tipo;
+	this.ataque1 = ataque1;
+	this.ataque2 = ataque2;
+	this.ataque3 = 0;
+	this.salud = 100;
+}
+
+
+
+
+}

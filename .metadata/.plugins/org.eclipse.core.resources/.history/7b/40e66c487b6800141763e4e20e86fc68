@@ -1,0 +1,10 @@
+package Poke;
+
+public class Main {
+
+	public static void main(String [] args){
+		Pokemon squirtle;
+		squirtle = new Pokemon(7, "squirtle", "Agua", 25, 10);
+		squirtle.mostrarPokemon();
+	}
+}
